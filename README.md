@@ -19,7 +19,7 @@ _You can copy and paste these checklists into your new repository and fill them 
 - [x] Setup eslint
 - [x] Pass all linting checks
 - [x] Format code with prettier
-- [ ] State should not be duplicated
+- [x] State should not be duplicated
 - [x] Variables should be named logicially
 - [x] No unneccessary console logs
 - [x] No commented out blocks of code (Code comments are fine)
