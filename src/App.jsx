@@ -4,21 +4,20 @@ import './Reset.css';
 import './Header.css';
 import './CharacterRatings.css';
 import './CharacterCards.css';
-import { Header } from './Components/htmlHeader.jsx'
+import { Header } from './Components/htmlHeader'
 import { CharTable } from './Components/htmlCharTable.jsx'
 import { CharCard } from './Components/htmlCharCards.jsx'
-import { characterTable } from './Data.jsx';
-import { characterCards } from './Data.jsx';
+import {data} from './fma-data.ts'
 
 function App() {
 
   return (
     <>
-      {Header()}
+      <Header />
 
-      {CharTable(characterTable)}
-      
-      {CharCard(characterCards)}
+      <CharTable data={data} />
+
+      <CharCard data={data} />
     </>
   )
 }
